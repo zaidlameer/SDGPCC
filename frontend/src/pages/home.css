@@ -1,0 +1,153 @@
+.hmpg-desc {
+    color: #ffffff;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 355px;
+    left: 8%;
+    width: 550px;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Poppins ExtraBold', sans-serif;
+    position: absolute;
+    height: 43px;
+    width: 50%;
+    top: 240px;
+    left: 1%;
+}
+
+h6 {
+    color: white;
+    font-family: 'Poppins Medium', sans-serif;
+    position: absolute;
+    transform: translate(-50px, 380px);
+    left: 21%;
+}
+
+.butt-home {
+    background-color: #490D0D;
+    font-family: "Poppins Medium", sans-serif;
+    border-radius: 10px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 530px;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+.butt-home:hover {
+    background-color: #490D0D; /*will change background-color of element on hover */
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Poppins Medium", sans-serif;
+    border: none;
+}
+
+:not(.btn-check) + .butt-home:active {
+    background-color: #732121;
+    color: #ffffff;
+}
+
+.landing-img {
+    width: 50%;
+    position: absolute;
+    top: 79px;
+    left: 50%;
+}
+
+.second-sect {
+    /*  background-image: linear-gradient(to bottom, #000, #000);
+      background-size: 140% 100%;*/
+    position: absolute;
+    left: 0px;
+    transform: translate(115%, 138%);
+    color: white;
+    line-height: 2em;
+    text-align: center;
+    width: 700px;
+    display: flex;
+}
+
+.second-sect h4, h5 {
+    text-align: left;
+    position: relative;
+    transform: translate(-40%, 10%);
+    padding-bottom: 1em;
+}
+
+.second-sect h4 {
+    font-size: 25px;
+    font-family: 'Poppins ExtraBold', sans-serif;
+}
+
+.second-sect h5 {
+    font-size: 20px;
+}
+
+.secPgDesc {
+    font-size: 16px;
+    font-family: "Poppins Light", serif;
+    line-height: 1.5em;
+    width: 115%;
+    position: relative;
+    transform: translate(-30%, 0);
+    padding-bottom: 2em;
+    text-align: justify;
+    padding-top: 2em;
+}
+
+.second-sect h2 {
+    padding-top: 2em;
+    font-size: 22px;
+    padding-bottom: 2em;
+    transform: translate(-54%, 8px);
+    letter-spacing: 0.5em;
+}
+
+.create-acc-home {
+    position: relative;
+    left: -180px;
+}
+
+.secpg-img {
+    width: 55%;
+    position: absolute;
+    left: -95%;
+    top: -15%;
+}
+
+.image-grid {
+    transform: translate(0, 360%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-placeholder {
+    width: 300px;
+    height: 400px;
+    background-color: #b8b8b8;
+}
+
+.image-placeholder img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 14%;
+}
+
+.last-para {
+    color: white;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    transform: translate(190px, 1500px);
+    width: 60%;
+    margin-bottom: 2em;
+}
