@@ -20,22 +20,27 @@ function homePage() {
             <img src="/assets/images/home/beckam_home.png" className={"landing-img"} alt="home page img"/>
             <div className={"second-sect"}>
                 <Container>
+                    <div className="black-bg"></div>
                     <h4>WELCOME TO DOC-HAIR!</h4>
                     <h5>Your Favorite Trichologist, Away From one Touch</h5>
                     <img src="/assets/images/home/sec-pg.png" className={"secpg-img"} alt="doctor-checking-hair"/>
-                    <p className={"secPgDesc"}> "DOC-Hair" is a software solution designed to help individuals identify
+                    <p className={"secPgDesc"}> "DOC-Hair" is a software solution designed to help individuals
+                        identify
                         and track hair thinning and hair loss. The software uses advanced algorithms and machine
-                        learning techniques to analyze images of the user's hair and provide detailed assessments of the
+                        learning techniques to analyze images of the user's hair and provide detailed assessments of
+                        the
                         current state of their hair. The program then suggests personalized solutions based on the
-                        analysis, including products and treatments that have been shown to be effective in promoting
+                        analysis, including products and treatments that have been shown to be effective in
+                        promoting
                         hair growth and reducing hair loss.
-                        Additionally, the software allows users to track their progress over time, providing them with
+                        Additionally, the software allows users to track their progress over time, providing them
+                        with
                         detailed reports on their hair's health and the effectiveness of their chosen solutions.
-                        Overall, "DOC-Hair" is an innovative and user-friendly tool that empowers individuals to take
+                        Overall, "DOC-Hair" is an innovative and user-friendly tool that empowers individuals to
+                        take
                         control of their hair health and achieve the results they desire.</p>
                     <Button className={"create-acc-home"}>Create an Account</Button>
                     <h2>What features does this application bring?</h2>
-
                 </Container>
             </div>
             <Container>

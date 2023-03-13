@@ -75,6 +75,15 @@ h6 {
     display: flex;
 }
 
+.black-bg {
+    background-color: #000000;
+    top: -20px;
+    width: 1250px;
+    left: -665px;
+    height: 750px;
+    position: absolute;
+}
+
 .second-sect h4, h5 {
     text-align: left;
     position: relative;
@@ -107,7 +116,7 @@ h6 {
     padding-top: 2em;
     font-size: 22px;
     padding-bottom: 2em;
-    transform: translate(-54%, 8px);
+    transform: translate(-55%, 8px);
     letter-spacing: 0.5em;
 }
 
