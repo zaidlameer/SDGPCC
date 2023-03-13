@@ -1,0 +1,99 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.footer {
+    position: relative;
+    top: 240vh;
+    background-color: #021d28;
+    padding: 50px 0;
+}
+
+.footer h5 {
+    color: white;
+    left: 335px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    color: white;
+    position: relative;
+    left: 165px;
+    font-size: 14px;
+    font-weight: 17;
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    color: white;
+    position: relative;
+    font-size: 16px;
+    left: 55px;
+    font-weight: 17;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.social-buttons {
+    width: 60%;
+}
+
+.social-buttons img {
+    width: 50px;
+    position: relative;
+    left: 85px;
+}
+
+.landscape-logo {
+    width: 45%;
+    position: relative;
+    left: 120px;
+    padding-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    position: relative;
+    left: 3px;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer hr {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.mail-cus {
+    color: white;
+    padding: 4px 4px 4px 4px;
+    background-color: rgba(255, 255, 255, 0.64);
+    border-color: rgba(255, 255, 255, 0.64);
+
+}
+
+.submit {
+    color: white;
+    padding: 4px 4px 4px 4px;
+    background-color: rgba(255, 255, 255, 0.64);
+    border-color: rgba(255, 255, 255, 0.64);
+}
