@@ -5,7 +5,7 @@ body {
 
 .footer {
     position: relative;
-    top: 240vh;
+    top: -60vh; /*240vh*/
     background-color: #021d28;
     padding: 50px 0;
 }
@@ -75,7 +75,8 @@ body {
     text-align: center;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.75);
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 
 .footer a {
