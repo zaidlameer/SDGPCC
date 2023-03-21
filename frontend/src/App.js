@@ -2,11 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 /*import ExpenseItem from "./components/ExpenseItem";*/
-
 import NavigationBar from "./components/NavigationBar";
-import homePage from "./pages/HomePage";
 import HomePage from "./pages/HomePage";
-
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -14,6 +12,7 @@ function App() {
         <div className="App">
             <NavigationBar></NavigationBar>
             <HomePage></HomePage>
+            <Footer></Footer>
         </div>
     );
 }
