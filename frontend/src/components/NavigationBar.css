@@ -1,0 +1,32 @@
+.nav-link {
+    font-family: 'Poppins Bold', sans-serif;
+    color: #000000;
+}
+
+/*.nav{
+    background: linear-gradient(165.89deg, #4E7390 10.04%, #1C405F 61.47%);
+}*/
+.logo {
+    width: 100px;
+}
+
+.nav-link {
+    /*color: white;*/
+}
+
+.nav-link {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0); /*will change background-color of element */
+    color: #ffffff; /*will change color of text within the element */
+}
+
+.nav-link:hover {
+    background-color: #162E5C; /*will change background-color of element on hover */
+    border-radius: 9px;
+    color: white; /*will change color of text within the element on hover */
+}
+
+.nav-link:active {
+    background-color: #2b4c8f;
+    color: white;
+}
