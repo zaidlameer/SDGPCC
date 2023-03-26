@@ -1,0 +1,52 @@
+.first-part img {
+    width: 40%;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+/*
+.form{
+    position: relative;
+    margin-left: 850px;
+    transform: translate(0,-600px);
+    background-color: rgba(255, 255, 255, 0.12);
+    height: 450px;
+    width: 340px;
+    padding-top: 120px;
+    border-radius: 50px;
+
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: "Poppins Bold", sans-serif;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b2d48;
+}
+*/
