@@ -42,10 +42,12 @@ def predict():
     # Make a prediction
     prediction = model.predict(img_array)
     # Get the predicted label and display the result
-    label = '''Alopecia Areata
-    
-    ''' if prediction[0][0] > 0.5 else 'HealthyHair'
-    return render_template('result.html', label=label)
+    if prediction[0][0] > 0.5:
+        label = 'Alopecia Areata'
+        return render_template('result_aa.html', label=label)
+    else:
+        label = 'Healthy Hair'
+        return render_template('result_hh.html', label=label)
 
 if __name__ == '__main__':
     app.run(debug=True)
