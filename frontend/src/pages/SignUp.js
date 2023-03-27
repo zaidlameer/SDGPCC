@@ -15,7 +15,7 @@ const SignUp = () => {
     };
     return (
         <div className="first_sect">
-            <Container>
+            <Container className={"sign-up-page-form"}>
                 <div className="doc_img">
                     <img src="/assets/images/Sign-up/doc-checking.png" className={"doc-check"}
                          alt="doctor checking hair"/>
