@@ -5,13 +5,14 @@ import './App.css';
 import NavigationBar from "./components/NavigationBar";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
+import SignUp from "./pages/SignUp";
 
 
 function App() {
     return (
         <div className="App">
             <NavigationBar></NavigationBar>
-            <HomePage></HomePage>
+            <SignUp></SignUp>
             <Footer></Footer>
         </div>
     );
