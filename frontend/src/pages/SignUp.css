@@ -65,6 +65,9 @@
     color: white;
     text-align: center;
 }
+.h3 {
+    font-family: 'Poppins Bold', sans-serif;
+}
 .form_signup button {
     display: block;
     margin: 1rem auto 1rem auto;
