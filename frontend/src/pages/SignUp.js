@@ -27,7 +27,7 @@ const SignUp = () => {
                     <div className="form_signup">
                         <h3 className="title">Sign Up</h3>
                         <p className="subtitle">
-                            Please log in using your username and password!
+                            Enter your Details and Sign Up for the Doc-Hair!
                         </p>
                         <form onSubmit={handleSubmit}>
                             <div className="form-group">
