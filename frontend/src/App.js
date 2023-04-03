@@ -3,17 +3,25 @@ import './App.css';
 
 /*import ExpenseItem from "./components/ExpenseItem";*/
 import NavigationBar from "./components/NavigationBar";
+import Consultation from "./pages/Consultation";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import Footer from "./components/Footer";
+import {LoginPage} from "./pages/LoginPage";
 import SignUp from "./pages/SignUp";
 
 
 function App() {
     return (
         <div className="App">
-            <NavigationBar></NavigationBar>
-            <SignUp></SignUp>
-            <Footer></Footer>
+            <NavigationBar/>
+            <BrowserRouter>
+                <Routes>
+                    <Route path={'/'} element={<HomePage/>}/>
+                    <Route path={'/consultation'} element={<Consultation/>}/>
+                    <Route path={'/login'} element={<LoginPage/>}/>
+                    <Route path={'/signup'} element={<SignUp/>}/>
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
