@@ -3,7 +3,7 @@ import "./home.css";
 
 function homePage() {
     return (
-        <div className={"home-all"}>
+        <>
             <div className={"landing-sect"}>
                 <h1 className={"text-center"}>DocHair</h1>
                 <div className={"hmpg-desc"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo
@@ -15,9 +15,9 @@ function homePage() {
                 <h6>Your Favorite Trichologist</h6>
                 <Button className={"butt-home"}>Try It</Button>
 
-
+                <img src="/assets/images/home/beckam_home.png" className={"landing-img"} alt="home page img"/>
             </div>
-            <img src="/assets/images/home/beckam_home.png" className={"landing-img"} alt="home page img"/>
+
             <div className={"second-sect"}>
                 <Container>
                     <div className="black-bg"></div>
@@ -60,11 +60,12 @@ function homePage() {
                     prescribing feature allows you to receive electronic prescriptions from your healthcare provider,
                     eliminating the need to visit the pharmacy in person. And if you have any questions or concerns, you
                     can
-                    easily talk to one of our agents,<br/> getting the support you need anytime, anywhere. <br/>Try our
+                    easily talk to one of our agents, getting the support you need anytime, anywhere. Try our
                     app today and
                     take control of your healthcare! USE DOC- HAIR! PROTECT YOUR HAIR!</p></div>
             </Container>
-        </div>
+            {/*        <Footer className={"footer-homePG"}/>*/}
+        </>
     );
 }
 
