@@ -24,7 +24,7 @@ def preprocess_image(image):
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -50,4 +50,5 @@ def predict():
         return render_template('result_hh.html', label=label)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0') # so that the app is visible publicly
+ 
