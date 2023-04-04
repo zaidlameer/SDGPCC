@@ -8,6 +8,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import {LoginPage} from "./pages/LoginPage";
 import SignUp from "./pages/SignUp";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                     <Route path={'/signup'} element={<SignUp/>}/>
                 </Routes>
             </BrowserRouter>
+            <Footer/>
         </div>
     );
 }
