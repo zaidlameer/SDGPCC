@@ -7,8 +7,8 @@ function NavigationBar() {
         <div className={"navigation-bar"}>
             <Navbar expand="lg">
                 <Container>
-                    <Navbar.Brand href="#homePage"><img src="/assets/images/logos/logo.png" className={"logo"}
-                                                        alt="logo"/></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src="/assets/images/logos/logo.png" className={"logo"}
+                                                alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
