@@ -9,11 +9,11 @@ const Footer = () => {
                 <Row>
                     <Col md={4}>
                         <ul>
-                            <li><a href="#consult">Consultation</a></li>
-                            <li><a href="#about">About Us</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/consultation">Consultation</a></li>
                             <li><a href="#contact">Contact Us</a></li>
-                            <li><a href="#login">Login</a></li>
-                            <li><a href="#signup">Sign Up</a></li>
+                            <li><a href="/login">Login</a></li>
+                            <li><a href="/signup">Sign Up</a></li>
                         </ul>
                     </Col>
                     <Col md={4}>
