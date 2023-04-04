@@ -10,6 +10,7 @@
     position: relative;
     left: 120px;
     width: 550px;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -26,7 +27,9 @@ h6 {
     color: white;
     font-family: 'Poppins Medium', sans-serif;
     position: relative;
-    left: 270px;
+    left: 290px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .butt-home {
@@ -37,7 +40,7 @@ h6 {
     position: relative;
     border: none;
     transition: background-color 0.5s ease;
-    margin-left: 300px;
+    margin-left: 370px;
 
 }
 
