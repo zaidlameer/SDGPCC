@@ -6,9 +6,9 @@ import NavigationBar from "./components/NavigationBar";
 import Consultation from "./pages/Consultation";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import {LoginPage} from "./pages/LoginPage";
 import SignUp from "./pages/SignUp";
 import Footer from "./components/Footer";
+import Login from "./pages/login";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
                 <Routes>
                     <Route path={'/'} element={<HomePage/>}/>
                     <Route path={'/consultation'} element={<Consultation/>}/>
-                    <Route path={'/login'} element={<LoginPage/>}/>
+                    <Route path={'/login'} element={<Login/>}/>
                     <Route path={'/signup'} element={<SignUp/>}/>
                 </Routes>
             </BrowserRouter>
