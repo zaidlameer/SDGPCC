@@ -47,8 +47,8 @@ const Footer = () => {
                                 </div>
                             </li>
                             <li>Inquiries</li>
-                            <li><a href="mailto:example@example.com">contacts@dochair.com</a></li>
-                            <li><a href="tel:+1234567890">011 2 345 356</a></li>
+                            <li><a href="mailto:contacts@dochair.com">contacts@dochair.com</a></li>
+                            <li><a href="tel:+0112345356">011 2 345 356</a></li>
                         </ul>
                     </Col>
                 </Row>
