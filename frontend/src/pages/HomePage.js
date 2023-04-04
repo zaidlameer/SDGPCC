@@ -39,7 +39,7 @@ function homePage() {
                         Overall, "DOC-Hair" is an innovative and user-friendly tool that empowers individuals to
                         take
                         control of their hair health and achieve the results they desire.</p>
-                    <Button className={"create-acc-home"}>Create an Account</Button>
+                    <Button className={"create-acc-home"} href={"/signup"}>Create an Account</Button>
                     <h2>What features does this application bring?</h2>
                 </Container>
             </div>
