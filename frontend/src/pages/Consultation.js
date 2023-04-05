@@ -36,14 +36,16 @@ function Consultation() {
 
     return (
         <Container className={"flask"}>
-            <div>
-                <h1>Image Classification App</h1>
-                <form onSubmit={handleSubmit}>
-                    <input className={"file-upload"} type="file" onChange={handleFileInputChange}/>
-                    <button type="submit">Predict</button>
-                </form>
-                {prediction && <p>{prediction}</p>}
-                {error && <p style={{color: 'red'}}>{error}</p>}
+            <div className={"background-fill"}>
+                <div className="inner">
+                    <h1>Image Classification App</h1>
+                    <form onSubmit={handleSubmit}>
+                        <input className={"file-upload"} type="file" onChange={handleFileInputChange}/>
+                        <button type="submit">Predict</button>
+                    </form>
+                    {prediction && <p>{prediction}</p>}
+                    {error && <p style={{color: 'red'}}>{error}</p>}
+                </div>
             </div>
         </Container>
     );

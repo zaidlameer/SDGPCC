@@ -5,19 +5,32 @@ body {
 .flask {
     color: white;
     position: relative;
-    display: block;
-    margin: 0 auto;
-    left: 31%;
-    top: 100px;
+    left: 330px;
+    top: -40px;
+    margin-bottom: 160px; /* adjust to set the footer level of the page */
 }
 
 .flask h1 {
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 20px;
     position: relative;
-    left: 10px;
+    left: 50px;
 }
 
 .file-upload {
     background-color: #2179c2;
+}
+
+.background-fill {
+    background-color: #02060e;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+}
+
+.inner {
+    position: relative;
+    top: -140px;
+    left: 115px;
 }
