@@ -6,11 +6,11 @@ function homePage() {
         <>
             <div className={"landing-sect"}>
                 <h1 className={"text-center"}>DocHair</h1>
-                <div className={"hmpg-desc"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo
-                    praesentium quis! Eaque et
-                    labore porro rem veritatis. Ab alias consectetur, cumque error eum eveniet explicabo facilis
-                    inventore
-                    itaque labore laborum natus odit perferendis provident quia similique soluta temporibus voluptas!
+                <div className={"hmpg-desc"}>Say goodbye to hair loss worries with Doc Hair – the revolutionary web app
+                    that predicts hair fall like never before. Our advanced technology uses the latest scientific
+                    research to analyze your hair and scalp, providing personalized insights into your hair health. Take
+                    control of your hair and prevent hair fall before it even starts with Doc Hair. Try it now and
+                    experience the future of hair care!
                 </div>
                 <h6>Your Favorite Trichologist</h6>
                 <Button className={"butt-home"}>Try It</Button>
