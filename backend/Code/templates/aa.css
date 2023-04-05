@@ -1,10 +1,15 @@
 body {
   background-color: rgb(76, 110, 221);
+  border: 2px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 15px;
 }
 
 p {
   margin-left: 30px;
   font-family: arial;
+  text-align: justify;
 }
 
 h1 {
@@ -14,9 +19,12 @@ h1 {
 
 h2 {
   margin-left: 30px;
+  margin-top: 10px;
 }
+
 ul {
-  font-family: arial;  
+  font-family: arial; 
+  text-align:justify; 
 }
 
 .row {
