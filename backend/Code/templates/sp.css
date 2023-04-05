@@ -22,10 +22,12 @@ body {
 
   ol {
     font-family: arial; 
+    line-height:30px ; 
   }
 
   ul {
-    font-family: arial;  
+    font-family: arial; 
+    line-height:30px ; 
   }
 
   .row {
