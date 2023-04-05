@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(76, 110, 221);
+  }
+  
+  p {
+    margin-left: 30px;
+    font-family: arial;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin-left: 30px;
+  }
+  ul {
+    font-family: arial;  
+  }
