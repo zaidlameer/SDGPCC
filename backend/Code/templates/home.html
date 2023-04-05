@@ -35,12 +35,25 @@
 		form {
 			margin-bottom: 20px;
 		}
+		/* added CSS for the about button */
+		#about {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: #51ad55;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 	</style>
 </head>
 <body>
 	<header>
 		<img src="../static/assets/logo.ico" alt="icon" style="width:80px;height:58px;">
 		<h1>Doctor Hair</h1>
+		<!-- added about button -->
+        <a href="../templates/about.html" id="about">About</a>
 	</header>
 	<form method="post" enctype="multipart/form-data" action="{{ url_for('predict') }}">
 		<input type="file" name="image" accept="image/*" required>
