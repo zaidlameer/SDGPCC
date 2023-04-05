@@ -31,7 +31,7 @@ header .icons span{
   width: 38px;
   margin: 0 1px;
   cursor: pointer;
-  color: #878787;
+  color: #6f6464;
   text-align: center;
   line-height: 38px;
   font-size: 1.9rem;
@@ -76,7 +76,7 @@ header .current-date{
   margin-top: 30px;
 }
 .days li.inactive{
-  color: #aaa;
+  color: #676262;
 }
 .days li.active{
   color: #fff;

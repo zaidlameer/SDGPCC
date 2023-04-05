@@ -1,30 +1,35 @@
+.landing-sect {
+    height: 720px;
+    position: relative;
+}
+
 .hmpg-desc {
     color: #ffffff;
     font-family: 'Poppins Medium', sans-serif;
     font-size: 13px;
-    position: absolute;
-    top: 355px;
-    left: 8%;
+    position: relative;
+    left: 120px;
     width: 550px;
+    padding-bottom: 20px;
 }
 
 h1 {
     font-size: 80px;
     color: white;
     font-family: 'Poppins ExtraBold', sans-serif;
-    position: absolute;
-    height: 43px;
+    position: relative;
     width: 50%;
-    top: 240px;
     left: 1%;
+    padding-top: 200px;
 }
 
 h6 {
     color: white;
     font-family: 'Poppins Medium', sans-serif;
-    position: absolute;
-    transform: translate(-50px, 380px);
-    left: 21%;
+    position: relative;
+    left: 290px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .butt-home {
@@ -32,14 +37,11 @@ h6 {
     font-family: "Poppins Medium", sans-serif;
     border-radius: 10px;
     color: white;
-    margin: 0;
-    position: absolute;
-    top: 530px;
-    left: 25%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: relative;
     border: none;
     transition: background-color 0.5s ease;
+    margin-left: 370px;
+
 }
 
 .butt-home:hover {
@@ -58,26 +60,26 @@ h6 {
 .landing-img {
     width: 50%;
     position: absolute;
-    top: 79px;
     left: 50%;
+    bottom: 0;
 }
 
 .second-sect {
     /*  background-image: linear-gradient(to bottom, #000, #000);
       background-size: 140% 100%;*/
-    position: absolute;
+    position: relative;
     left: 0px;
-    transform: translate(115%, 138%);
+    transform: translate(115%, 0%);
     color: white;
     line-height: 2em;
     text-align: center;
     width: 700px;
     display: flex;
+    margin-top: 100px;
 }
 
 .black-bg {
     background-color: #000000;
-    top: -20px;
     width: 1250px;
     left: -665px;
     height: 750px;
@@ -87,17 +89,20 @@ h6 {
 .second-sect h4, h5 {
     text-align: left;
     position: relative;
-    transform: translate(-40%, 10%);
+    transform: translate(-40%, 0%);
     padding-bottom: 1em;
+
 }
 
 .second-sect h4 {
     font-size: 25px;
     font-family: 'Poppins ExtraBold', sans-serif;
+    padding-top: 50px;
 }
 
 .second-sect h5 {
     font-size: 20px;
+
 }
 
 .secPgDesc {
@@ -116,7 +121,7 @@ h6 {
     padding-top: 2em;
     font-size: 22px;
     padding-bottom: 2em;
-    transform: translate(-55%, 8px);
+    transform: translate(-55%, 0px);
     letter-spacing: 0.5em;
 }
 
@@ -128,12 +133,12 @@ h6 {
 .secpg-img {
     width: 55%;
     position: absolute;
-    left: -95%;
-    top: -15%;
+    left: -100%;
+    top: -5%;
 }
 
 .image-grid {
-    transform: translate(0, 360%);
+    transform: translate(0, 0%);
     display: flex;
     justify-content: space-evenly;
 }
@@ -142,6 +147,7 @@ h6 {
     width: 300px;
     height: 400px;
     background-color: #b8b8b8;
+    filter: drop-shadow(0 0 0.75rem #000000);
 }
 
 .image-placeholder img {
@@ -153,10 +159,20 @@ h6 {
 
 .last-para {
     color: white;
-    position: absolute;
+    position: relative;
     display: flex;
-    text-align: center;
-    transform: translate(190px, 1500px);
+    text-align: justify;
     width: 60%;
-    margin-bottom: 2em;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
+
+/*
+.footer-homePG {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+*/
+

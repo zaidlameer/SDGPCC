@@ -1,0 +1,103 @@
+.sign-up-page-form{
+    display: flex;
+    align-content: center;
+}
+.background_white{
+    position: relative;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 20px 20px 20px 20px;
+    height: 570px;
+    border-radius: 30px;
+}
+.first_sect h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -300px;
+    left: -137px;
+    font-weight: bold;
+}
+.link_container{
+    text-align: center;
+}
+.link_container a{
+    color: white;
+    font-size: 10px;
+}
+.highlight {
+    color: #eac803;
+}
+
+.doc-check {
+    width: 65%;
+    position: relative;
+    top: 35px;
+    margin-bottom: 10px;
+}
+
+/*
+.form_signup h3 {
+    position: relative;
+    top: -600px;
+    left: 300px;
+}
+
+.form_signup p {
+    position: relative;
+    top: -600px;
+    left: 300px;
+}
+
+.form_signup form {
+    position: relative;
+    left: 825px;
+    top: -630px;
+    color: white;
+}
+
+.form_signup button {
+    position: relative;
+    left: -520px;
+    margin-top: 10px;
+}*/
+.form_signup h3,p {
+    color: white;
+    text-align: center;
+}
+.h3 {
+    font-family: 'Poppins Bold', sans-serif;
+}
+.form_signup button {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 40%;
+    padding: 0.5rem;
+    border-radius: 30px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.28);
+    color: white;
+    border: 2px solid transparent;
+}
+
+.form_signup button:hover {
+    border: 2px solid #ffffff;
+    background-color: #06386e;
+}
+
+.form-group input {
+    width: 90%;
+    height: 30px;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.71);
+}
