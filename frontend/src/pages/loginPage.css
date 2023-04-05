@@ -5,6 +5,10 @@
     left: 100px;
 }
 
+.form {
+    display: flex;
+}
+
 /*
 .form{
     position: relative;

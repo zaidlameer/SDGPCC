@@ -1,0 +1,68 @@
+.mobile-phone-checking-boy {
+    width: 80%;
+    margin-top: 38px;
+}
+
+.form-grouping {
+    color: white;
+    position: relative;
+    top: 150px;
+    background-color: rgba(255, 255, 255, 0.27);
+    width: 50%;
+    left: 200px;
+    height: 400px;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+
+.form-grouping input {
+    /*width: 250px;
+    text-align: center;
+    position: relative;
+    left: 100px;*/
+    height: 30px;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.71);
+    position: relative;
+    left: 35px;
+}
+
+.login-page-text {
+    margin-bottom: 20px;
+    font-family: 'Poppins ExtraBold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.login-page-subtext {
+    font-family: "Poppins Light", serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.form-fields {
+    position: relative;
+}
+
+.login-button {
+    border-radius: 30px;
+    width: 100px;
+    position: relative;
+    left: 105px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.28);
+    border: 2px solid transparent;
+}
+
+.login-button:hover {
+    border: 2px solid #ffffff;
+    background-color: #06386e;
+}
