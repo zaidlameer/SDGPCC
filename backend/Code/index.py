@@ -31,6 +31,11 @@ def preprocess_image(image):
 def index():
     return render_template('home.html')
 
+# Define the route for the about page
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 # Define the route for the classification results
 @app.route('/predict', methods=['POST'])
 def predict():
