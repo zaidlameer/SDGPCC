@@ -7,7 +7,7 @@ from PIL import Image
 import tensorflow as tf
 
 app = Flask(__name__)
-model = tf.keras.models.load_model(r'C:\Users\zaidl\OneDrive\Desktop\new sdgp\sdgpcc\backend\Code\HLprediction.h5')
+model = tf.keras.models.load_model(r'D:\SDGP\sdgpcc\backend\Code\HLprediction.h5')
 IMG_SIZE = (80, 80)
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png'}
 
