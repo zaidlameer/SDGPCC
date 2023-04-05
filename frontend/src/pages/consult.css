@@ -1,0 +1,32 @@
+.relevant-details {
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    top: 33px;
+    left: 75px;
+}
+
+.diagnose-button {
+    width: 250px;
+    background-color: #eac803;
+    border-color: #eac803;
+}
+
+.background-colour {
+    background-color: #91939b;
+    width: 400px;
+    height: 150px;
+    position: relative;
+}
+
+.full-sect {
+    padding-bottom: 100px;
+    padding-left: 430px;
+}
+
+.field-name {
+    background-color: #490D0D;
+    width: 250px;
+    text-align: center;
+}
